@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="hibernatePU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>model.Catmodulo</class>
+    <class>model.Ciclos</class>
+    <class>model.Cataplicacion</class>
+    <class>model.Tblbitacora</class>
+    <class>model.PrestamosInterno</class>
+    <class>model.Ahorros</class>
+    <class>model.Caja</class>
+    <class>model.CierreCiclo</class>
+    <class>model.AbonosReto</class>
+    <class>model.Tblogin</class>
+    <class>model.Cattipomodificacion</class>
+    <class>model.CatReto</class>
+    <class>model.Tbperfilaplicacion</class>
+    <class>model.AbonosInterno</class>
+    <class>model.PrestamosReto</class>
+    <class>model.CatInterno</class>
+    <class>model.Catperfilacceso</class>
+    <class>model.Socios</class>
+    <class>model.Tbusuario</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/caja"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
